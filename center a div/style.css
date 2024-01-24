@@ -1,0 +1,51 @@
+/* 1. center a div */
+
+/* .child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+} */
+
+
+/* 2. way using flex */
+
+/* .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+} */
+
+
+/* 3. way using grid */
+
+/* .parent{
+    display: grid;
+    place-items: center;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+} */
+
+
+/* 4. way using grid */
+
+/* .parent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+} */
+
