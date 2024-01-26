@@ -4,16 +4,21 @@
     height: 100px;
     width: 100px;
     border: 1px solid black;
-    margin: 0 auto;
+    margin: 40vh auto;
 } */
 
 
 /* 2. way using flex */
+/* 
 
-/* .parent{
+body{
+    overflow: hidden;
+}
+.parent{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .child{
     height: 100px;
@@ -35,17 +40,16 @@
 } */
 
 
-/* 4. way using grid */
+/* 4. way using position */
 
-/* .parent{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/* 
 .child{
     height: 100px;
     width: 100px;
     border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 } */
 
