@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    gap: 10px;
+}
+#one{
+    width: 200px;
+    height: 400px;
+    border-radius: 2rem;
+    transition: all ease-in-out .8s;
+
+}
+#two{
+
+    width: 200px;
+    border-radius: 2rem;
+    height: 400px;
+}
+#three{
+    width: 200px;
+    border-radius: 2rem;
+    height: 400px;
+}
+#four{
+    border-radius: 2rem;
+    width: 200px;
+    height: 400px;
+}
+#five{
+    border-radius: 2rem;
+    width: 200px;
+    height: 400px;
+}
+
+.newclass{
+    flex-basis: 33%;
+}
