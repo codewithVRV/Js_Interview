@@ -1,0 +1,30 @@
+body{
+    overflow: hidden;
+
+}
+.dark{
+    background-color: black;
+}
+.light{
+    background-color: grey;
+}
+#parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#btn{
+    padding: 10px 10px;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(227, 53, 53);
+    transition: all ease-in-out .6s;
+}

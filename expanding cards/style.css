@@ -1,3 +1,7 @@
+:root{
+    --w: 400px;
+    --h: 200px
+}
 h1{
     text-align: center;
 }
@@ -8,35 +12,14 @@ h1{
     width: 100%;
     gap: 10px;
 }
-#one{
-    width: 200px;
-    height: 400px;
+.classs{
+    width: var(--w);
+    height: var(--h);
     border-radius: 2rem;
     transition: all ease-in-out .8s;
 
 }
-#two{
-
-    width: 200px;
-    border-radius: 2rem;
-    height: 400px;
-}
-#three{
-    width: 200px;
-    border-radius: 2rem;
-    height: 400px;
-}
-#four{
-    border-radius: 2rem;
-    width: 200px;
-    height: 400px;
-}
-#five{
-    border-radius: 2rem;
-    width: 200px;
-    height: 400px;
-}
 
 .newclass{
-    flex-basis: 33%;
+    flex-basis: 90%;
 }
