@@ -1,0 +1,50 @@
+
+#box {
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.dark {
+    background-color: black;
+}
+.light {
+    background-color: grey;
+}
+
+.title {
+    color:white;
+}
+#ball{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: 1.5px solid brown;
+    border-radius: 50%;
+    top: 3px;
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+    background-color: black;
+
+}
+#toggleButtonContainer {
+    margin: 30px auto;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+.ball{
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border: 1.5px solid red;
+    border-radius: 50%;
+    top: 3px;
+    left: 3.4rem;
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
