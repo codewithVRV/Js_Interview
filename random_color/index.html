@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121;">
+    
+    <h1 id="">I am Vishnu</h1> 
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+
+<script>
+
+  const randomColor = function () {
+     const hex = "0123456789ABCDEF"
+     let color = "#"
+     for(let i = 0; i < 6; i++) {
+        const randomNumber = Math.floor(Math.random() * 16)
+        color += hex[randomNumber]
+     }
+     return color;
+  }
+
+let id;
+const startChangingColor = function () {
+
+  id = setInterval(changeColor, 1000)
+  function changeColor () {
+
+    document.body.style.backgroundColor = randomColor()
+    console.log("color code is", randomColor())
+  }
+}
+const stopChangingColor = function () {
+   clearInterval(id)
+
+}
+
+
+document.querySelector("#start")
+.addEventListener("click", startChangingColor)
+document.querySelector("#stop")
+.addEventListener("click", stopChangingColor)
+
+
+    
+
+</script>
+</html>
