@@ -1,0 +1,22 @@
+.fill{
+    height: 95px;
+    width: 95px;
+    border: 2px solid black;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(12, 163, 213);
+    cursor: grab;
+}
+
+.empty{
+    height: 110px;
+    width: 110px;
+    border: 5px solid rgb(195, 13, 13);
+    display: inline-block;
+    margin: 10px;
+}
+
+.invisible{
+    display: none;
+}
