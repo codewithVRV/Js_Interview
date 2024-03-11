@@ -1,0 +1,40 @@
+div{
+    margin: 40vh auto;
+    /* position: relative; */
+    /* animation: rotateAnimation 2s linear infinite; */
+}
+.parent {
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid red;
+    border-bottom: 30px solid black;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent; 
+    position: absolute;
+    transform: rotate(90deg);
+    top: 0%;
+    left: 47.8%;
+    animation: rotateAnimation 3s linear infinite;
+}
+
+.child{
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid orange;
+    border-bottom: 30px solid green;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    animation: rotateAnimation 2s linear infinite;
+}
+
+
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

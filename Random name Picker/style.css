@@ -1,4 +1,10 @@
+body{
+    background-color: #212121;
+}
 
+textarea {
+    background-color: rgb(88, 84, 84);
+}
 .choice{
     background-color: orange;
     margin-top: 1rem;
@@ -10,6 +16,16 @@
     margin-left: 5px;
 }
 
+.active {
+    background-color: rgb(159, 113, 29);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
 .select {
     background-color: red;
     font-size: 1.3rem;
