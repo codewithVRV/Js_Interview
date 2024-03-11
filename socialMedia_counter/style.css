@@ -1,0 +1,15 @@
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
