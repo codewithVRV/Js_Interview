@@ -2,8 +2,10 @@ document.addEventListener("click", (e) => {
     
     const box = document.getElementById("box")
 
-    box.style.top = (e.clientY - box.offsetHeight/2) + "px";
-    box.style.left = (e.clientX - box.offsetWidth/2) + "px";
+    box.style.top = (e.clientY) + "px";
+    box.style.left = (e.clientX) + "px";
+    // box.style.top = (e.clientY - box.offsetHeight/2) + "px";
+    // box.style.left = (e.clientX - box.offsetWidth/2) + "px";
 
 })
 
