@@ -1,0 +1,20 @@
+
+#progress {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+#progress-bar {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    /* flex-basis: 70%; */
+}
+
+.percentage {
+    display: flex;
+    justify-content: center;
+
+}

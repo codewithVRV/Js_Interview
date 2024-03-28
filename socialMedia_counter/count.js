@@ -16,34 +16,24 @@ let c = count3.innerHTML;
 let countNumber3 = Number(c)
 
 
-
 const id1 = setInterval(() => {
-    countNumber1 += 2000;
+    countNumber1 += 100;
     count1.textContent = countNumber1;
-    countNumber2 += 83;
+    countNumber2 += 60;
     count2.textContent = countNumber2;
-    countNumber3 += 122;
+    countNumber3 += 40;
     count3.textContent = countNumber3;
     
 }, 100)
 
-// const id2 = setInterval(() => {
-    
-// }, 100)
-
-
-// const id3 = setInterval(() => {
-    
-// }, 100)
 
 
 
 
 setTimeout(() => {
     clearInterval(id1)
-    // clearInterval(id2)
-    // clearInterval(id3)
 }, 5000)
 
-count1.innerHTML = 10000;
+
+
 
