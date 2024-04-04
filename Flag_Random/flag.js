@@ -36,7 +36,7 @@ document.addEventListener("dblclick", ()=> {
         setTimeout(() => {
             flagName.style.display = "none"
     
-            }, 1500)
+        }, 1500)
     }
     else if (num == 3) {
         flagName.style.display = "block"
