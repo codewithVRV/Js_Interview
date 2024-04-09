@@ -1,0 +1,35 @@
+
+
+#box{
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    margin: 80px auto;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#tip{
+    height: 20px;
+    width: 100px;
+    position: relative;
+    border: 1px solid black;
+    top: -80px;
+    left: -10px;
+    visibility: hidden;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+
+.icon:hover{
+    transform: scale(1.8);
+
+}
